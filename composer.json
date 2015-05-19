@@ -1,0 +1,12 @@
+{
+  "name": "siezi/phile-admin-cache",
+  "type": "phile-plugin",
+  "license": "MIT",
+  "description": "Cache Plugin for Phile-Admin",
+  "homepage": "https://github.com/Schlaefer/phileAdmin",
+  "keywords": ["phile", "admin", "backend", "cache"],
+  "require": {
+    "siezi/phile-admin": "^0.1",
+    "symfony/filesystem": "^2.6"
+  }
+}
