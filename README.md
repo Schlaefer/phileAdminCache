@@ -2,7 +2,10 @@
 
 ## What ##
 
-A cache plugin for [Phile-Admin](https://github.com/Schlaefer/phileAdmin).
+A cache management plugin for [Phile-Admin]:
+
+- show if cache service is active
+- clear global cache service and complete file cache
 
 ## Installation
 
@@ -25,12 +28,19 @@ A cache plugin for [Phile-Admin](https://github.com/Schlaefer/phileAdmin).
 
 ### 2. Activation
 
-After you have installed the plugin. You need to add the following line to your `config.php` file:
+2. Activation
+
+After you have installed the plugin you activate it by adding the following line to your `config.php` file:
 
 ```php
 $config['plugins']['siezi\\phileAdminCache'] = ['active' => true];
 ```
 
+This plugin depends on [Phile-Admin]. Make sure it’s activated too.
+
+
 ### 3. Config ###
 
 See `config.php`.
+
+[Phile-Admin]: https://github.com/Schlaefer/phileAdmin
