@@ -18,7 +18,7 @@ class Plugin extends AbstractPlugin
         $adminPlugin
           ->setMenu('siezi.phileAdminCache.title', '/cache')
           ->setLocalesFolder($this->getPluginPath('locales'))
-          ->setTemplateFolder($this->getPluginPath('views'))
+          ->setTemplateFolder($this->getPluginPath('templates'))
           ->setRoutes(['/cache' => new AdminCache]);
         $eventData['plugins']->add($adminPlugin);
     }
