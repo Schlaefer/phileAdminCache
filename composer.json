@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Schlaefer/phileAdmin",
   "keywords": ["phile", "admin", "backend", "cache"],
   "require": {
-    "siezi/phile-admin": "^0.1",
+    "siezi/phile-admin": "^1.0.0",
     "symfony/filesystem": "^2.6"
   }
 }
